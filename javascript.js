@@ -23,7 +23,7 @@ const api_url="https://jsonplaceholder.typicode.com/posts";
           <th>body</th>
          </tr>`;
 
-         for(let r of data.data){
+         for(let r of data.list){
             tab +=`<tr>
             <td>${r.userId}
             <td>${r.id}</td>
